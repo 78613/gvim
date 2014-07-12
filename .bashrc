@@ -115,29 +115,11 @@ fi
 # ------------------------------------------------------------
 # Allow remote windows -> Set this as a boot option to avoid setting on each 
 # shell spawn.
-# xhost +
+xhost +
 
 # I like vi
 set -o vi
 
 # Additional aliases 
 alias ls='ls -F --color=auto'
-alias gsb='cd /gsa/ausgsa/home/o/c/ocardona/web/public/SB'
-alias gli='cd /gsa/ausgsa/home/o/c/ocardona/web/public/LI'
-alias gaix='cd /gsa/ausgsa/projects/a/aix'
-alias ghome='cd /gsa/ausgsa/home/o/c/ocardona'
-alias gwork='cd /gsa/ausgsa/home/o/c/ocardona/web/public/Work'
-alias gtrash='cd /gsa/ausgsa/home/o/c/ocardona/web/public/trash'
-alias gpublic='cd /gsa/ausgsa/home/o/c/ocardona/web/public'
-alias gprivate='cd /gsa/ausgsa/home/o/c/ocardona/web/private/home/ocardona'
 
-# CVS for UDYA
-export CVS_RSH=/usr/bin/ssh
-export CVSROOT=:ext:l4p10.austin.ibm.com:/usr/local/cvs/cvsroot
-
-
-
-
-export PATH=/opt/plasticscm5/client:$PATH
-
-export PATH=/opt/plasticscm5/server:$PATH
